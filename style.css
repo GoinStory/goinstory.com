@@ -1,0 +1,36 @@
+h1 {
+  font-family:굴림;
+  text-align:center;
+  margin:2px;
+  padding:5px;
+}
+ol {
+  border-right:1px solid gray;
+  padding-left:20px;
+  padding-right:20px;
+}
+body {
+  margin:5px;
+  padding:20px;
+}
+a {
+  color:black;
+  font-weight:800;
+  text-decoration:none;
+}
+#sese {
+  display:grid;
+  grid-template-columns:20% 1fr;
+}
+#right {
+  padding:10px;
+}
+@media(max-width:800px) {
+  ol {
+    border-right:none;
+    border-bottom:1px solid gray;
+  }
+  #sese {
+    display:block;
+  }
+}
